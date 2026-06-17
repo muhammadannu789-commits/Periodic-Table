@@ -1,0 +1,41 @@
+.container{
+    text-align: center;      /* Is se h1 aur text center ho jaye ga */
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* Is se poori table center ho jaye gi */
+    justify-content: center;
+
+}
+
+
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    font-family: sans-serif;
+;
+}
+td{
+    width: 60px;
+    height: 60px;
+    padding: 4px;
+    vertical-align: middle;
+    border: 2px solid gray;
+
+}
+       .number { 
+        font-size: 10px; 
+        text-align: center; 
+        color: #555; 
+        }
+        .symbol { 
+        font-size: 18px; 
+        font-weight: bold; 
+        }
+        .mass { 
+        font-size: 10px; 
+        color: #777; 
+        }
+        .empty { 
+        border: none; 
+        }
